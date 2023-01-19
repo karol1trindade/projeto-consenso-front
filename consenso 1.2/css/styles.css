@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Encode+Sans:wght@400;700&display=swap');
+.barra{
+    background-color:  #0057DF;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    size: 9px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    
+    
+
+}
+
+.barra2{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+.collapse{
+    
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.final{
+    background-color: #D9D9D9;
+}
+.form{
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 12px;
+    color: #5A5A5A;
+}
+.b{
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+ 
+
+ .brand{
+    position: absolute;
+    width: 102px;
+    height: 22px;
+    font-family: 'Black Han Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+ }
+ .row{
+    box-sizing: border-box;
+    position: absolute;
+    
+    place-items: center;  
+ }
+
+.mensagem{
+   
+
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+position: relative;
+right: 60px;
+align-items: center;
+text-align: right;
+
+
+
+color: #00213E;
+
+    
+}
+/*rodapé*/
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+.imagem{
+    position: relative;
+    top: 60px;
+    left: 27px;
+
+}
+.nav-link{
+    padding-bottom:5px;
+    border-bottom:5px;
+    border-color: #FFB800;
+}
+section{
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+}
