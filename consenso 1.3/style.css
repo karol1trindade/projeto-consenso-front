@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Encode+Sans:wght@400;700&display=swap');
+
+header{
+    display: flex;
+    background-color: #0057DF;
+    height: 150px;
+}
+.header-h2{
+    font-family:'Black Han Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
+.header-div{
+    display: flex;
+    padding-top: 50px;
+}
+.header-ul{
+    font-family:'Encode Sans', sans-serif; 
+    font-weight: 700;
+    line-height: 11px;
+    padding-top: 18px;
+}
+.header-nav-a1{
+    margin-right: 100px;
+    padding: 15px;
+    padding-bottom: 55px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.header-nav-a2{
+    padding-bottom: 55px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.header-ul>.active{
+    color: #FFB800;
+    width: 78px;
+    height: 0px;
+    border-bottom: 7px solid #FFB800;
+}
+.container-main{
+    width: 35%;
+    margin-top: 10.45%;
+}
+
+.div-select{
+    padding: 20px;
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 12px;
+    color: #5a5a5a;
+}
+.botao-bar{
+    padding: 15px;
+    border: 3px solid #5a5a5a;
+    border-radius: 15px;
+}
+.p{
+    padding-left: 3px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+.botao{
+    background-color: #0057DF !important;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px;
+    padding: 7px 240px;
+    border: 4px solid #5a5a5a;
+    border-radius: 15px;
+}
+.footer-bar{
+    background-color: #d9d9d9;
+    display: flex;
+    height: 150px;
+}
+.logo-footer-bar{
+    width: 300px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.p-footer{
+    font-weight: 700;
+    width: 400px;
+    text-align: end;
+    font-size: 24px;
+    padding-top: 30px;
+}
+.footer{
+    height: 150px;
+    top: 85%;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}

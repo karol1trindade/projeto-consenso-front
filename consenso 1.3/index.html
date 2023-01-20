@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Encode+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <style>
+        .btn{
+            font-family: 'Encode Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    
+    </style>
+<header>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-expand-md navbar-dark barra">
+        <div class="header-div">
+            <!--logo-->
+            <a class="header-h2 " href="#">agendapp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          <!--links-->
+            <div style="font-family: 'Encode Sans', sans-serif;" class="collapse navbar-collapse" id="navbarNav">
+                <ul class="header-ul">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Agendar Serviço</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Meus Agendamentos</a>
+                    </li>             
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+      <br><br><br><br><br>
+ <!--FORMULÁRIO ínicio-->
+<main>
+    <form action="" class="container">
+        <div class="row">
+            <label for="serviço"> Selecione o serviço: </label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected></option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="cidade"> Data: </label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="cidade"> Hora: </label>
+                <select class="form-select" aria-label="Default select example"> 
+                    <option selected></option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">AGENDAR</button>
+    </form>
+</main>
+<!-- FORMULÁRIO fim-->
+
+<!--Rodapé Ínicio-->
+<footer  class="final width-full container-fluid p-responsive" >
+    <img src="img/Consenso_Marca_7.png" alt="logo" width="200px">
+    <p class="text-end" >projeto Consenso 2023</p>
+    <br>
+    <p class="text-end" >Agendapp © Treina Recife</p>
+
+</footer>
+<!--Rodapé Fim-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>      
+</body>
+
+
+</html>

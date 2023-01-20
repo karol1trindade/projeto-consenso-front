@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Encode+Sans:wght@400;700&display=swap');
+.barra{
+    background-color:  #0057DF;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 100px;
+}
+.barra2{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: right;    
+}
+header{
+    
+}
+.collapse{
+    
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.final{
+    background-color: #D9D9D9;
+}
+.form{
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 12px;
+    color: #5A5A5A;
+}
+.b{
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+/* RODAPÉ */
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100px;
+}
